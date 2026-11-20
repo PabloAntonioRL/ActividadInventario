@@ -1,0 +1,293 @@
+nov. 19, 2026 5:36:32 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-19)
+nov. 19, 2026 5:36:32 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.1...
+nov. 19, 2026 5:36:32 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 19, 2026 5:36:32 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 19, 2026 5:36:32 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 19, 2026 5:37:00 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:37:00 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 5:37:00 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 19, 2026 5:37:00 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:37:07 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:37:07 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:37:10 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:37:10 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 19, 2026 5:37:13 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:37:13 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:37:15 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:37:15 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 19, 2026 5:37:17 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:37:17 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 2
+nov. 19, 2026 5:37:19 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:37:19 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 19, 2026 5:37:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:37:20 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 19, 2026 5:37:27 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:37:27 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 19, 2026 5:37:29 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:37:29 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 19, 2026 5:38:07 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:38:07 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:38:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 5:38:20 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 19, 2026 5:38:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:38:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:38:20 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 4 clases
+nov. 19, 2026 5:38:20 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 familias
+nov. 19, 2026 5:38:49 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 5:38:49 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 19, 2026 5:38:57 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:38:57 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 19, 2026 5:38:59 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:38:59 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 3 familias
+nov. 19, 2026 5:43:02 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 5:43:02 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:43:02 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:43:02 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 19, 2026 5:43:04 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:43:04 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:51:24 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:51:24 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 19, 2026 5:51:35 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:51:35 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 3 familias
+nov. 19, 2026 5:51:48 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 5:51:48 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 19, 2026 5:52:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:52:20 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 19, 2026 5:52:25 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:52:25 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 3 familias
+nov. 19, 2026 5:52:29 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:52:29 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 3 clases
+nov. 19, 2026 5:52:33 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:52:33 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 familias
+nov. 19, 2026 5:55:20 P. M. com.main.InventarioManager insertItemsBatch
+FINE: Agregando 1 filas en DB inventario
+nov. 19, 2026 5:55:20 P. M. com.main.InventarioManager insertItemsBatch
+FINE: Se insertaron 1 artículos.
+nov. 19, 2026 5:55:20 P. M. com.main.Main lambda$17
+FINE: Ok
+nov. 19, 2026 5:56:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 5:56:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:56:14 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 5:56:14 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:57:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 5:57:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 5:57:01 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 19, 2026 5:57:01 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 5:57:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 5:57:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 5:57:01 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 3 clases
+nov. 19, 2026 5:57:01 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 familias
+nov. 19, 2026 6:03:08 P. M. com.main.InventarioManager updateItem
+FINE: Artículo actualizado. SKU: 100002
+nov. 19, 2026 6:03:08 P. M. com.main.Main lambda$18
+FINE: Ok
+nov. 19, 2026 6:03:16 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:03:16 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:03:16 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:03:16 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 6:04:03 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:04:03 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:04:19 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:04:20 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 19, 2026 6:04:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 6:04:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 6:04:20 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 4 clases
+nov. 19, 2026 6:04:20 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 familias
+nov. 19, 2026 6:04:57 P. M. com.main.InventarioManager updateItem
+FINE: Artículo actualizado. SKU: 200002
+nov. 19, 2026 6:04:57 P. M. com.main.Main lambda$18
+FINE: Ok
+nov. 19, 2026 6:05:05 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:05:05 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:05:05 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:05:05 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 6:06:14 P. M. com.main.Main lambda$19
+FINE: Ok, registro 200002 eliminado correctamente.
+nov. 19, 2026 6:06:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:06:14 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 19, 2026 6:07:19 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 6:07:19 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 19, 2026 6:07:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:07:20 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:08:32 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:08:33 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 19, 2026 6:10:22 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:10:22 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:11:03 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:11:04 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 19, 2026 6:11:36 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 6:11:36 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 19, 2026 6:11:39 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 19, 2026 6:11:39 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 3 familias
+nov. 19, 2026 6:11:49 P. M. com.main.InventarioManager insertItemsBatch
+FINE: Agregando 1 filas en DB inventario
+nov. 19, 2026 6:11:49 P. M. com.main.Main lambda$17
+FINE: Error: ERROR: La cantidad no puede superar el stock
+  Where: función PL/pgSQL insertar_articulos_batch(jsonb) en la línea 24 en RAISE
+nov. 19, 2026 6:15:34 P. M. com.main.InventarioManager insertItemsBatch
+FINE: Agregando 1 filas en DB inventario
+nov. 19, 2026 6:15:34 P. M. com.main.InventarioManager insertItemsBatch
+FINE: Se insertaron 1 artículos.
+nov. 19, 2026 6:15:34 P. M. com.main.Main lambda$17
+FINE: Ok
+nov. 19, 2026 6:15:44 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:15:44 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:15:44 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 6:15:44 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:22:22 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 19, 2026 6:22:22 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 19, 2026 6:23:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:23:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:23:01 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:23:01 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 6:29:37 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:29:37 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:29:37 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 6:29:37 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:30:00 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:30:00 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:30:00 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 6:30:00 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:30:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 19, 2026 6:30:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:30:15 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:30:15 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 19, 2026 6:30:31 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:30:31 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 6:31:33 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 6:31:33 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 19, 2026 7:04:54 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 19, 2026 7:04:54 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4

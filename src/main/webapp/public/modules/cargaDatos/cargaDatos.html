@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+
+    <main class="module-container">
+        
+        <div id="loading" class="loadingArea">
+            <div class="loadingImgL"></div>
+        </div>
+        
+        <div id="modalSuccess" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button id="closeModal" class="modal-close-btn">✕</button>
+                    <div id="modalContent" class="modal-body">
+                        <h3 id="modal-title">Departamento creado con exito</h3>
+                        
+                        
+                    </div>
+                    <button id="btnAceptModal" type="submit" class="btn btn-primary">
+                                Aceptar
+                        </button>
+                </div>
+            </div>
+        </div>
+        <section class="page-heading">
+            <h5>
+                Registra o actualiza departamentos, clases, familias y artículos
+                en el catálogo de inventario.
+            </h5>
+        </section>
+
+        <section class="tabs-container">
+
+            <!-- TAB HEADERS -->
+
+            <div class="tabs-header">
+                <button class="data-tab active" data-tab="inventario">
+                    <i class="bi bi-box-seam" aria-hidden="true"></i> Inventario
+                </button>
+                <button class="data-tab" data-tab="categoria">
+                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categorias
+                </button>
+                <button class="data-tab" data-tab="departamento">
+                    <i class="bi bi-building" aria-hidden="true"></i> Departamento
+                </button>
+                <button class="data-tab" data-tab="clase">
+                    <i class="bi bi-diagram-3" aria-hidden="true"></i> Clase
+                </button>
+                <button class="data-tab" data-tab="familia">
+                    <i class="bi bi-collection" aria-hidden="true"></i> Familia
+                </button>
+            </div>
+
+            <div class="tabs-content">
+
+                <div class="data-tab-content" data-tab-content="categoria">
+
+                    <div class="form-heading">
+                        <h2>Nueva categoria</h2>
+                        <p>Registra una nueva categoria en el catálogo.</p>
+                    </div>
+
+                    <form id="formCategoria">
+                        <div class="form-grid">
+
+                            <div class="form-group full-width">
+                                
+                                <label for="nombre-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Nombre de la categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="nombre-categoria"
+                                       name="categoria"
+                                       placeholder="Ej. Electrónica"
+                                       maxlength="100"
+                                       required>
+                            </div>
+
+                        </div>
+                        <div class="form-grid hidden" id="edit-categoria">
+                            <div class="form-group">
+                                <label for="nombre-clase">
+                                    <i class="bi bi-collection" aria-hidden="true"></i> Numero categoria
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="categoria-numero"
+                                       name="numero_categoria"
+                                       maxlength="150"
+                                       disabled>
+                            </div>
+                            <div class="form-group hidden">
+                                <label><i class="bi bi-slash-circle" aria-hidden="true"></i> Activo</label>
+
+                                <div class="checkbox-container">
+                                    <input type="checkbox"
+                                           id="categoria-activo"
+                                           name="activo"
+                                           value="true">
+
+                                    <label for="categoria-activo">
+                                         Marcar como activo
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="categoria-fecha_alta">
+                                    <i class="bi bi-calendar-check" aria-hidden="true"></i> Fecha alta
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="categoria-fecha_alta"
+                                       name="fecha_alta"
+                                       disabled
+                                       >
+                            </div>
+                            <div class="form-group">
+                                <label for="categoria-fecha_baja">
+                                    <i class="bi bi-calendar-x" aria-hidden="true"></i> Fecha baja
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="categoria-fecha_baja"
+                                       name="fecha_baja"
+                                       disabled
+                                       >
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button id="clean-categoria" type="reset" class="btn btn-secondary">
+                                Limpiar
+                            </button>
+
+                            <button id="btnGuardarCategoria" type="submit" class="btn btn-primary" disabled>
+                                <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Crear categoria
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+                
+                <!-- DEPARTAMENTO -->
+
+                <div class="data-tab-content" data-tab-content="departamento">
+
+                    <div class="form-heading">
+                        <h2>Nuevo departamento</h2>
+                        <p>Registra un nuevo departamento en el catálogo.</p>
+                    </div>
+
+                    <form id="formDepartamento">
+                        <div class="form-grid">
+                            
+                            <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="departamento-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                
+                                <label for="nombre-departamento">
+                                    <i class="bi bi-building" aria-hidden="true"></i> Nombre del departamento
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="nombre-departamento"
+                                       name="nombre_departamento"
+                                       placeholder="Ej. Electrónica"
+                                       maxlength="100"
+                                       required>
+                            </div>
+
+                        </div>
+                        <div class="form-grid hidden" id="edit-departamento">
+                            <div class="form-group">
+                                <label for="nombre-clase">
+                                    <i class="bi bi-collection" aria-hidden="true"></i> Numero departamento
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="departamento-numero"
+                                       name="numero_departamento"
+                                       maxlength="150"
+                                       disabled>
+                            </div>
+                            <div class="form-group hidden">
+                                <label><i class="bi bi-slash-circle" aria-hidden="true"></i> Activo</label>
+
+                                <div class="checkbox-container">
+                                    <input type="checkbox"
+                                           id="departamento-activo"
+                                           name="activo"
+                                           value="true">
+
+                                    <label for="departamento-activo">
+                                         Marcar como activo
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="departamento-fecha_alta">
+                                    <i class="bi bi-calendar-check" aria-hidden="true"></i> Fecha alta
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="departamento-fecha_alta"
+                                       name="fecha_alta"
+                                       disabled
+                                       >
+                            </div>
+                            <div class="form-group">
+                                <label for="departamento-fecha_baja">
+                                    <i class="bi bi-calendar-x" aria-hidden="true"></i> Fecha baja
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="departamento-fecha_baja"
+                                       name="fecha_baja"
+                                       disabled
+                                       >
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button id="clean-departamento" type="reset" class="btn btn-secondary">
+                                Limpiar
+                            </button>
+
+                            <button id="btnGuardarDepartamento" type="submit" class="btn btn-primary" disabled>
+                                <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Crear departamento
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <!-- CLASE -->
+
+                <div class="data-tab-content" data-tab-content="clase">
+
+                    <div class="form-heading">
+                        <h2>Nueva clase</h2>
+                        <p>Selecciona el departamento al que pertenecerá la clase.</p>
+                    </div>
+
+                    <form id="formClase">
+                        <div class="form-grid">
+
+                            <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="clase-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="clase-departamento">
+                                    <i class="bi bi-building" aria-hidden="true"></i> Departamento
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="clase-departamento"
+                                        name="numero_departamento"
+                                        required disabled>
+                                    <option value="">Seleccionar departamento</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="nombre-clase">
+                                    <i class="bi bi-diagram-3" aria-hidden="true"></i> Nombre de la clase
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="nombre-clase"
+                                       name="nombre_clase"
+                                       placeholder="Ej. Computadoras"
+                                       maxlength="100"
+                                       required>
+                            </div>
+
+                        </div>
+                        <div class="form-grid hidden" id="edit-clase">
+                            <div class="form-group">
+                                <label for="nombre-clase">
+                                    <i class="bi bi-collection" aria-hidden="true"></i> Numero familia
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="clase-numero"
+                                       name="numero_familia"
+                                       maxlength="150"
+                                       required disabled>
+                            </div>
+                            <div class="form-group hidden">
+                                <label><i class="bi bi-slash-circle" aria-hidden="true"></i> Activo</label>
+
+                                <div class="checkbox-container">
+                                    <input type="checkbox"
+                                           id="clase-activo"
+                                           name="activo"
+                                           value="true">
+
+                                    <label for="clase-activo">
+                                         Marcar como activo
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="clase-fecha_alta">
+                                    <i class="bi bi-calendar-check" aria-hidden="true"></i> Fecha alta
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="clase-fecha_alta"
+                                       name="fecha_alta"
+                                       disabled
+                                       >
+                            </div>
+                            <div class="form-group">
+                                <label for="clase-fecha_baja">
+                                    <i class="bi bi-calendar-x" aria-hidden="true"></i> Fecha baja
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="clase-fecha_baja"
+                                       name="fecha_baja"
+                                       disabled
+                                       >
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button id="clean-clase" type="reset" class="btn btn-secondary">
+                                Limpiar
+                            </button>
+
+                            <button id="btnGuardarClase" type="submit" class="btn btn-primary" disabled>
+                                <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Crear clase
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <!-- FAMILIA -->
+
+                <div class="data-tab-content" data-tab-content="familia">
+
+                    <div class="form-heading">
+                        <h2>Nueva familia</h2>
+                        <p>Define la familia y su clasificación correspondiente.</p>
+                    </div>
+
+                    <form id="formFamilia">
+                        <div class="form-grid">
+
+                            <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="familia-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="familia-departamento">
+                                    <i class="bi bi-building" aria-hidden="true"></i> Departamento
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="familia-departamento"
+                                        name="numero_departamento"
+                                        required disabled>
+                                    <option value="">Seleccionar departamento</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="familia-clase">
+                                    <i class="bi bi-diagram-3" aria-hidden="true"></i> Clase
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="familia-clase"
+                                        name="numero_clase"
+                                        required disabled>
+                                    <option value="">Seleccionar clase</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="nombre-familia">
+                                    <i class="bi bi-collection" aria-hidden="true"></i> Nombre de la familia
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="nombre-familia"
+                                       name="nombre_familia"
+                                       placeholder="Ej. Laptops"
+                                       maxlength="150"
+                                       required>
+                            </div>
+
+                        </div>
+                        <div class="form-grid hidden" id="edit-familia">
+                            <div class="form-group">
+                                <label for="nombre-familia">
+                                    <i class="bi bi-collection" aria-hidden="true"></i> Numero familia
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="familia-numero"
+                                       name="numero_familia"
+                                       maxlength="150"
+                                       required disabled>
+                            </div>
+                            <div class="form-group hidden">
+                                <label><i class="bi bi-slash-circle" aria-hidden="true"></i> Activo</label>
+
+                                <div class="checkbox-container">
+                                    <input type="checkbox"
+                                           id="familia-activo"
+                                           name="activo"
+                                           value="true">
+
+                                    <label for="familia-activo">
+                                         Marcar como activo
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="familia-fecha_alta">
+                                    <i class="bi bi-calendar-check" aria-hidden="true"></i> Fecha alta
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="familia-fecha_alta"
+                                       name="fecha_alta"
+                                       disabled
+                                       >
+                            </div>
+                            <div class="form-group">
+                                <label for="familia-fecha_baja">
+                                    <i class="bi bi-calendar-x" aria-hidden="true"></i> Fecha baja
+                                </label>
+
+                                <input type="date"
+                                       class="form-control"
+                                       id="familia-fecha_baja"
+                                       name="fecha_baja"
+                                       disabled
+                                       >
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button id="cleanFormFamilia" type="reset" class="btn btn-secondary">
+                                Limpiar
+                            </button>
+
+                            <button id="btnGuardarFamilia" type="submit" class="btn btn-primary" disabled>
+                                <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Crear familia
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <!-- INVENTARIO -->
+
+                <div class="data-tab-content active" data-tab-content="inventario">
+
+                    <div class="form-heading">
+                        <h2>Registra o actualiza un artículo</h2>
+                        <p>Ingresa los datos del artículo para registrarlo en el inventario.</p>
+                    </div>
+
+                    <form id="formInventario">
+                        <div class="form-grid">
+
+                            <div class="form-group">
+                                <label for="sku">
+                                    <i class="bi bi-upc-scan" aria-hidden="true"></i> SKU
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="number"
+                                       class="form-control"
+                                       id="sku"
+                                       name="sku"
+                                       placeholder="Ej. 123456"
+                                       min="0"
+                                       max="999999"
+                                       required>
+
+                                <span class="form-help">
+                                    Identificador único de seis dígitos.
+                                </span>
+                            </div>
+
+                            <div class="form-group">
+                                <label><i class="bi bi-slash-circle" aria-hidden="true"></i> Descontinuado</label>
+
+                                <div class="checkbox-container">
+                                    <input type="checkbox"
+                                           id="descontinuado"
+                                           name="descontinuado"
+                                           value="true">
+
+                                    <label for="descontinuado">
+                                         Marcar como descontinuado
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="articulo">
+                                    <i class="bi bi-box-seam" aria-hidden="true"></i> Artículo
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="articulo"
+                                       name="articulo"
+                                       placeholder="Nombre del artículo"
+                                       maxlength="15"
+                                       required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="marca">
+                                    <i class="bi bi-tag" aria-hidden="true"></i> Marca
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="marca"
+                                       name="marca"
+                                       placeholder="Marca del artículo"
+                                       maxlength="15"
+                                       required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="modelo">
+                                    <i class="bi bi-card-list" aria-hidden="true"></i> Modelo
+                                    <span class="required">*</span>
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="modelo"
+                                       name="modelo"
+                                       placeholder="Modelo del artículo"
+                                       maxlength="15"
+                                       required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="stock">
+                                    <i class="bi bi-boxes" aria-hidden="true"></i> Stock
+                                </label>
+
+                                <input type="number"
+                                       class="form-control"
+                                       id="stock"
+                                       name="stock"
+                                       value="0"
+                                       min="0">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="cantidad">
+                                    <i class="bi bi-123" aria-hidden="true"></i> Cantidad
+                                </label>
+
+                                <input type="number"
+                                       class="form-control"
+                                       id="cantidad"
+                                       name="cantidad"
+                                       value="0"
+                                       min="0">
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="inventario-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="inventario-departamento">
+                                    <i class="bi bi-building" aria-hidden="true"></i> Departamento
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="inventario-departamento"
+                                        name="numero_departamento"
+                                        required disabled>
+                                    <option value="0">Seleccionar departamento</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="inventario-clase">
+                                    <i class="bi bi-diagram-3" aria-hidden="true"></i> Clase
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="inventario-clase"
+                                        name="numero_clase"
+                                        required disabled>
+                                    <option value="0">Seleccionar clase</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="inventario-familia">
+                                    <i class="bi bi-collection" aria-hidden="true"></i> Familia
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="inventario-familia"
+                                        name="numero_familia"
+                                        required disabled>
+                                    <option value="0">Seleccionar familia</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                        
+                        <div id="inventario-fechas" class="form-grid hidden">
+                            <div class="form-group">
+                                <label for="fecha_alta">
+                                    <i class="bi bi-calendar-check" aria-hidden="true"></i> Fecha Alta
+                                </label>
+
+                                <input class="form-control"
+                                        id="fecha_alta"
+                                        type="date"
+                                        name="fecha_alta"
+                                        disabled>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fecha_baja">
+                                    <i class="bi bi-calendar-x" aria-hidden="true"></i> Fecha Baja
+                                </label>
+
+                                <input class="form-control"
+                                        id="fecha_baja"
+                                        type="date"
+                                        name="fecha_baja"
+                                        disabled>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button id="cleanFormInventario" type="reset" class="btn btn-secondary">
+                                Limpiar
+                            </button>
+
+                            <button id="submitItem" type="submit" class="btn btn-primary" disabled>
+                                <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Registrar artículo
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>

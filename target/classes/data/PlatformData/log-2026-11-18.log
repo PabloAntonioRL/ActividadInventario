@@ -1,0 +1,44 @@
+nov. 18, 2026 4:48:42 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-18)
+nov. 18, 2026 4:48:42 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 18, 2026 4:48:42 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 18, 2026 4:48:42 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 18, 2026 4:48:42 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 18, 2026 4:52:40 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 18, 2026 4:52:40 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 18, 2026 4:52:40 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 18, 2026 4:52:40 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 18, 2026 4:52:44 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 18, 2026 4:52:44 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 18, 2026 5:01:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 18, 2026 5:01:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 18, 2026 5:01:42 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 18, 2026 5:01:42 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 18, 2026 5:01:43 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 18, 2026 5:01:43 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 18, 2026 5:04:21 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-18)
+nov. 18, 2026 5:04:21 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.1...
+nov. 18, 2026 5:04:21 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 18, 2026 5:04:21 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 18, 2026 5:04:21 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...

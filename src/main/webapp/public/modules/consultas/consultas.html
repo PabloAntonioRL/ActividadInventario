@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+
+    <main class="module-container">
+        
+        <div id="loading" class="loadingArea">
+            <div class="loadingImgL"></div>
+        </div>
+        
+        <div id="modalSuccess" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button id="closeModal" class="modal-close-btn">✕</button>
+                    <div id="modalContent" class="modal-body">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <section class="page-heading">
+            <h5>
+                Visualizacion de datos.
+            </h5>
+        </section>
+
+        <section class="tabs-container">
+
+            <!-- TAB HEADERS -->
+
+            <div class="tabs-header">
+                <button class="data-tab active" data-tab="inventario">
+                    <i class="bi bi-box-seam" aria-hidden="true"></i> Inventario
+                </button>
+                <button class="data-tab" data-tab="categoria">
+                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categorias
+                </button>
+                <button class="data-tab" data-tab="departamento">
+                    <i class="bi bi-building" aria-hidden="true"></i> Departamento
+                </button>
+                <button class="data-tab" data-tab="clase">
+                    <i class="bi bi-diagram-3" aria-hidden="true"></i> Clase
+                </button>
+                <button class="data-tab" data-tab="familia">
+                    <i class="bi bi-collection" aria-hidden="true"></i> Familia
+                </button>
+            </div>
+
+            <div class="tabs-content" id="tabsContainer">
+
+                <div class="data-tab-content" data-tab-content="categoria">
+
+                    <div class="form-heading">
+                        <h2>Departamentos</h2>
+                        <p>Ver y descargar los datos de las categorias.</p>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-building" aria-hidden="true"></i> Nombre
+                            </label>
+
+                            <input class="form-control"
+                                        id="categoria-nombre"
+                                        name="nombre_categoria"
+                                        >
+                        </div>
+                        
+                    </div>
+                    <div class="form-actions">
+                        <button id="showDiactivate-categorias" class="btn btn-secondary clear-filter">
+                            Ver Desactivados
+                        </button>
+                        <button class="btn btn-secondary clear-filter">
+                            Limpiar
+                        </button>
+
+                        <button id="download-categorias" class="btn btn-primary">
+                            <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Descargar
+                        </button>
+                    </div>
+                    <div id="tabla-categorias" class="form-group full-width"></div>
+
+                </div>
+                
+                <!-- DEPARTAMENTO -->
+
+                <div class="data-tab-content" data-tab-content="departamento">
+
+                    <div class="form-heading">
+                        <h2>Departamentos</h2>
+                        <p>Ver y descargar los datos de los departamentos.</p>
+                    </div>
+
+                    <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="departamento-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-building" aria-hidden="true"></i> Nombre
+                            </label>
+
+                            <input class="form-control"
+                                        id="departamento-nombre"
+                                        name="nombre_departamento"
+                                        >
+                        </div>
+                        
+                    </div>
+                    <div class="form-actions">
+                        <button id="showDiactivate-departamentos" class="btn btn-secondary clear-filter">
+                            Ver Desactivados
+                        </button>
+                        <button class="btn btn-secondary clear-filter">
+                            Limpiar
+                        </button>
+
+                        <button id="download-departamentos" class="btn btn-primary">
+                            <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Descargar
+                        </button>
+                    </div>
+                    <div id="tabla-departamentos" class="form-group full-width"></div>
+
+                </div>
+
+                <!-- CLASE -->
+
+                <div class="data-tab-content" data-tab-content="clase">
+
+                    <div class="form-heading">
+                        <h2>Clases</h2>
+                        <p>Ver y descargar toodos los datos de las clases.</p>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="clase-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-building" aria-hidden="true"></i> Departemento
+                            </label>
+
+                            <select class="form-control"
+                                        id="clase-departamento"
+                                        name="numero_departamento"
+                                        required disabled>
+                                    <option value="">Seleccionar departamento</option>
+                                </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-diagram-3" aria-hidden="true"></i> Clase
+                            </label>
+
+                            <input class="form-control"
+                                    id="clases-nombre"
+                                    name="nombre_clase"
+                                    type="text">
+                        </div>
+                        
+                    </div>
+                    <div class="form-actions">
+                        <button id="showDiactivate-clases" class="btn btn-secondary clear-filter">
+                            Ver Desactivados
+                        </button>
+                        <button class="btn btn-secondary clear-filter">
+                            Limpiar
+                        </button>
+
+                        <button id="download-clases" class="btn btn-primary">
+                            <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Descargar
+                        </button>
+                    </div>
+                    
+                    <div id="tabla-clases" class="form-group full-width"></div>
+
+                </div>
+
+                <!-- FAMILIA -->
+
+                <div class="data-tab-content" data-tab-content="familia">
+
+                    <div class="form-heading">
+                        <h2>Familias</h2>
+                        <p>Ver y descargar todos los datos de las familias. Se pueden realizar busquedas por nombre de departamento, clase o familia</p>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="familia-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-building" aria-hidden="true"></i> Departamento
+                            </label>
+
+                            <select class="form-control"
+                                        id="familia-departamento"
+                                        name="numero_departamento"
+                                        required disabled>
+                                    <option value="">Seleccionar departamento</option>
+                                </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-diagram-3" aria-hidden="true"></i> Clase
+                            </label>
+
+                            <select class="form-control"
+                                        id="familia-clase"
+                                        name="numero_clase"
+                                        required disabled>
+                                    <option value="">Seleccionar clase</option>
+                                </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-collection" aria-hidden="true"></i> Familia
+                            </label>
+
+                            <input class="form-control"
+                                    id="familias-nombre"
+                                    name="nombre_familia"
+                                    type="text">
+                        </div>
+                        
+                    </div>
+                    <div class="form-actions">
+                        <button id="showDiactivate-familias" class="btn btn-secondary clear-filter">
+                            Ver Desactivados
+                        </button>
+                        <button class="btn btn-secondary clear-filter">
+                            Limpiar
+                        </button>
+
+                        <button id="download-familias" class="btn btn-primary">
+                            <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Descargar
+                        </button>
+                    </div>
+                    <div id="tabla-familias" class="form-group full-width"></div>
+
+                </div>
+
+                <!-- INVENTARIO -->
+
+                <div class="data-tab-content active" data-tab-content="inventario">
+
+                    <div class="form-heading">
+                        <h2>Artículos</h2>
+                        <p>Ver todos los articulos disponibles en el inventario.</p>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group full-width">
+                                <label for="departamento-categoria">
+                                    <i class="bi bi-grid-3x3-gap" aria-hidden="true"></i> Categoria
+                                    <span class="required">*</span>
+                                </label>
+
+                                <select class="form-control"
+                                        id="inventario-categoria"
+                                        name="numero_categoria"
+                                        required disabled>
+                                    <option value="">Seleccionar categoria</option>
+                                </select>
+                            </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-building" aria-hidden="true"></i> Departamento
+                            </label>
+
+                            <select class="form-control"
+                                    id="inventario-departamento"
+                                    name="numero_departamento"
+                                    required disabled>
+                                <option value="0">Seleccionar departamento</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-diagram-3" aria-hidden="true"></i> Clase
+                            </label>
+
+                            <select class="form-control"
+                                    id="inventario-clase"
+                                    name="numero_clase"
+                                    required disabled>
+                                <option value="0">Seleccionar clase</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-collection" aria-hidden="true"></i> Familia
+                            </label>
+
+                            <select class="form-control"
+                                    id="inventario-familia"
+                                    name="numero_familia"
+                                    required disabled>
+                                <option value="0">Seleccionar familia</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-box-seam" aria-hidden="true"></i> Nombre de articulo
+                            </label>
+
+                            <input class="form-control"
+                                    id="inventario-nombre"
+                                    name="articulo"
+                                    type="text">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <i class="bi bi-upc-scan" aria-hidden="true"></i> SKU
+                            </label>
+
+                            <input class="form-control"
+                                    id="inventario-sku"
+                                    name="sku"
+                                    type="text">
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button id="showDiactivate-inventario" class="btn btn-secondary clear-filter">
+                            Ver Desactivados
+                        </button>
+                        <button class="btn btn-secondary clear-filter">
+                            Limpiar
+                        </button>
+
+                        <button id="download-inventario" class="btn btn-primary">
+                            <i class="bi bi-floppy2-fill" aria-hidden="true"></i> Descargar
+                        </button>
+                    </div>
+                    <div id="tabla-inventario" class="form-group full-width"></div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+

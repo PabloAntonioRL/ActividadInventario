@@ -1,0 +1,15 @@
+com\main\ClasesManager.class
+com\main\FamiliasManager.class
+com\main\Main.class
+com\main\ConfigListener.class
+com\main\LogFormatter.class
+com\main\DepartamentosManager.class
+com\main\ResultSetToJsonConverter.class
+com\main\InventarioManager.class
+com\main\CategoriaManager.class
+com\main\JSONUtil.class
+com\main\AppConfig.class
+com\main\ApiResponse.class
+com\main\Util.class
+com\main\DBManager.class
+com\main\FileUtil.class

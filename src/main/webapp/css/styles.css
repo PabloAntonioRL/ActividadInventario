@@ -1,0 +1,1620 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 11 nov. 2026, 19:01:31
+    Author     : anto_
+*/
+
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    position: relative;
+    background: #fff;
+    min-width: 450px;
+    width: 600px;
+    border-radius: 12px;
+    max-height: 90vh;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    overflow: hidden;
+}
+
+/* Área que sí hace scroll */
+.modal-body {
+    padding: 20px;
+    max-height: calc(90vh - 50px);
+    overflow-y: auto;
+    margin: 20px;
+}
+.modal-content div.labelContent {
+    display: block;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+/* Botón cerrar */
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    width: 34px;
+    height: 34px;
+    min-height: 10px;
+    min-width: 10px;
+    border: none;
+    border-radius: 50%;
+    background: #d32f2f;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    padding: unset;
+}
+
+/* Hover */
+.modal-close-btn:hover {
+    background: #b71c1c;
+    transform: scale(1.08);
+}
+
+/* Click */
+.modal-close-btn:active {
+    transform: scale(0.95);
+}
+
+
+/* MAIN CONTENT */
+
+.module-container {
+    max-width: 1150px;
+    margin: 40px auto;
+    padding: 0 25px;
+}
+
+.page-heading {
+    margin-bottom: 28px;
+}
+
+.page-heading h1 {
+    font-size: 26px;
+    color: var(--secondary);
+    margin-bottom: 9px;
+}
+
+.page-heading p {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+/* TABS */
+
+.tabs-container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    box-shadow: 0 3px 12px rgba(0,0,0,.04);
+    overflow: hidden;
+}
+
+.tab-input {
+    display: none;
+}
+
+.tabs-header {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    background: #fafbfd;
+}
+
+.tab-label {
+    flex: 1;
+    padding: 19px 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: .2s;
+}
+
+.tab-label:hover {
+    color: var(--primary);
+    background: #f5faf8;
+}
+/* Contenedor de pestañas */
+.data-tabs {
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 25px;
+}
+
+/* Botón de pestaña */
+.data-tab {
+    flex: 1;
+    padding: 19px 12px;
+    border: none;
+    border-bottom: 3px solid transparent;
+    background: transparent;
+    color: var(--text-light);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.data-tab:hover {
+    color: var(--primary);
+    
+}
+
+.data-tab.active {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+/* Contenido de las pestañas */
+.data-tab-content {
+    display: none;
+            padding: 30px;
+}
+
+.data-tab-content.active {
+    display: block;
+}
+
+        /*#tab-departamento:checked ~ .tabs-header label[for="tab-departamento"],
+        #tab-clase:checked ~ .tabs-header label[for="tab-clase"],
+        #tab-familia:checked ~ .tabs-header label[for="tab-familia"],
+        #tab-inventario:checked ~ .tabs-header label[for="tab-inventario"] {
+            color: var(--primary);
+            background: white;
+            border-bottom-color: var(--primary);
+        }*/
+
+        /* TAB CONTENT */
+
+/*
+        #tab-departamento:checked ~ .tabs-content #content-departamento,
+        #tab-clase:checked ~ .tabs-content #content-clase,
+        #tab-familia:checked ~ .tabs-content #content-familia,
+        #tab-inventario:checked ~ .tabs-content #content-inventario {
+            display: block;
+        }
+*/
+.form-heading {
+    margin-bottom: 27px;
+}
+
+.form-heading h2 {
+    font-size: 19px;
+    color: var(--secondary);
+    margin-bottom: 7px;
+}
+
+.form-heading p {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+/* FORM */
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.required {
+    color: var(--danger);
+}
+
+.form-control {
+    width: 100%;
+    height: 42px;
+    padding: 0 12px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    background: white;
+    color: var(--text);
+    font-size: 14px;
+    outline: none;
+    transition: .2s;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(46,153,125,.12);
+}
+
+.form-control::placeholder {
+    color: #a0aab7;
+}
+
+select.form-control {
+    cursor: pointer;
+}
+
+textarea.form-control {
+    height: 85px;
+    padding: 12px;
+    resize: vertical;
+}
+
+.form-help {
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+/* CHECKBOX */
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-height: 42px;
+    font-size: 13px;
+}
+
+.checkbox-container input {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--primary);
+    cursor: pointer;
+}
+
+/* FORM ACTIONS */
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 30px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+}
+
+.btn {
+    height: 40px;
+    padding: 0 22px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-secondary {
+    background: white;
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.btn-secondary:hover {
+    background: #f1f3f6;
+}
+
+.btn-primary {
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.btn-danger {
+    background: var(--danger);
+    border: 1px solid var(--danger);
+    color: white;
+}
+
+.btn-danger:hover {
+    background: var(--danger-dark);
+    border-color: var(--danger-dark);
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-primary:disabled:hover {
+    background: var(--primary);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 650px) {
+    .main-header {
+        padding: 0 18px;
+    }
+
+    .main-container {
+        margin: 25px auto;
+        padding: 0 12px;
+    }
+
+    .tabs-header {
+        flex-wrap: wrap;
+    }
+
+    .tab-label {
+        flex: 1 1 50%;
+        padding: 15px 5px;
+        font-size: 12px;
+    }
+
+    .tab-content {
+        padding: 22px 17px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+        gap: 17px;
+    }
+
+    .form-group.full-width {
+        grid-column: auto;
+    }
+
+    .form-actions {
+        flex-direction: column-reverse;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .header-info {
+        display: none;
+    }
+}
+
+
+.result-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4/01/2022, 04:40:38 PM
+    Author     : Pablo
+*/
+
+.loadingArea {
+    background-color: #ffffff7d;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loadingArea transparent {
+    background-color: #ffffff7a;
+}
+.loadingArea hide {
+    display: none;
+}
+.loadingImg {
+    background-image: url(../aef023bc752e82db8ed0.gif);
+    height: 64px;
+    width: 64px;
+}
+.loadingImg50 {
+    background-image: url(../bc81d8e8a83bf1283d93.gif);
+    height: 50%;
+    width: 50%;
+}
+
+.loadingImgS {
+    background-image: url(../e691b0ef9b1ea71efcce.gif);
+    height: 32px;
+    width: 32px;
+}
+.loadingImgXS {
+    background-image: url(../e691b0ef9b1ea71efcce.gif);
+    height: 20px;
+    width: 20px;
+}
+.loadingImgM {
+    background-image: url(../303c41cacde0ac70d6d9.gif);
+    height: 96px;
+    width: 96px;
+}
+.loadingImgL {
+    background-image: url(../bc81d8e8a83bf1283d93.gif);
+    height: 128px;
+    width: 128px;
+}
+
+.loadingImgXL {
+    background-image: url(../64c9e38f56bb0766a079.gif);
+    height: 256px;
+    width: 256px;
+}
+
+.loadingInfo {
+    font-size: 15pt;
+    text-shadow: 0 0 #454545;
+    margin-top: 9px;
+}
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13 nov. 2026, 14:46:07
+    Author     : anto_
+*/
+/* Contenedor de la tabla */
+/* Contenedor de la tabla */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #e0e5eb;
+    background: #ffffff;
+    min-height: 300px;
+    position: relative;
+}
+
+/* Tabla */
+.custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 14px;
+    color: #062045;
+    text-align: left;
+}
+
+/* Encabezados */
+.custom-table thead {
+    background-color: #062045;
+    color: #ffffff;
+}
+
+.custom-table th {
+    padding: 13px 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    border-bottom: 3px solid #2e997d;
+}
+
+/* Celdas */
+.custom-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e8edf1;
+    white-space: nowrap;
+}
+
+/* Filas alternadas */
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f5f8fa;
+}
+
+/* Efecto hover */
+.custom-table tbody tr:hover {
+    background-color: #e8f4f0;
+    transition: background-color 0.2s ease;
+}
+
+/* Última fila */
+.custom-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* =================================
+   COLUMNA DE ACCIONES FIJA
+================================= */
+
+.custom-table .action-header,
+.custom-table .action-cell {
+    position: sticky;
+    left: 0;
+    width: 55px;
+    min-width: 55px;
+    max-width: 55px;
+    padding: 8px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+.custom-table .action-header {
+    z-index: 4;
+    background-color: #062045;
+}
+
+/* Celdas */
+.custom-table .action-cell {
+    z-index: 2;
+    background-color: inherit;
+    border-right: 1px solid #e0e5eb;
+}
+
+/* Fondo de las filas */
+.custom-table tbody tr:hover .action-cell {
+    background-color: #e8f4f0;
+}
+
+.custom-table tbody tr:nth-child(odd) .action-cell {
+    background-color: #ffffff;
+}
+
+.custom-table tbody tr:nth-child(even) .action-cell {
+    background-color: #f5f8fa;
+}
+
+.custom-table tbody tr:nth-child(even):hover .action-cell {
+    background-color: #e8f4f0;
+}
+
+/* Columna de acciones */
+.custom-table .action-header,
+.custom-table .action-cell {
+    position: sticky;
+    left: 0;
+    width: 55px;
+    min-width: 55px;
+    max-width: 55px;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Encabezado */
+.custom-table .action-header {
+    z-index: 4;
+    background-color: #062045;
+}
+
+/* Fondo opaco de las celdas */
+.custom-table tbody .action-cell {
+    z-index: 2;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e5eb;
+}
+
+/* Filas alternadas */
+.custom-table tbody tr:nth-child(even) .action-cell {
+    background-color: #f5f8fa;
+}
+
+/* Hover */
+.custom-table tbody tr:hover .action-cell {
+    background-color: #e8f4f0;
+}
+
+/* Botón de tres puntos */
+.table-action-button {
+    background: transparent;
+    border: none;
+    color: #062045;
+    font-size: 19px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.table-action-button:hover {
+    background-color: #e8f4f0;
+    color: #2e997d;
+}
+
+.table-action-menu {
+    position: fixed;
+    min-width: 140px;
+
+    background: #ffffff;
+    border: 1px solid #e0e5eb;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.18);
+
+    padding: 5px;
+    text-align: left;
+    z-index: 20000;
+}
+
+
+/* Abrir hacia arriba */
+.table-action-menu.open-up {
+    top: auto;
+    bottom: calc(100% + 5px);
+}
+
+/* Ocultar menú */
+.table-action-menu[hidden] {
+    display: none;
+}
+
+/* Opciones */
+.table-action-menu button {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    padding: 9px 10px;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    color: #062045;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.table-action-menu button:hover {
+    background-color: #e8f4f0;
+    color: #2e997d;
+}
+
+.table-action-menu button[data-action="delete"] {
+    background-color: #fff0f0;
+    color: #dc3545;
+}
+
+.table-action-menu button[data-action="delete"]:hover {
+    background-color: #fff0f0;
+    color: #dc3545;
+}
+
+.table-action-menu button[data-action="diactivate"]:hover {
+    background-color: #fff0f0;
+    color: #dc3545;
+}
+
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 1 jul. 2026, 18:01:01
+    Author     : anto_
+*/
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+:root {
+
+    --primary: #2e997d;
+    --secondary: #062045;
+    --primary-dark: #2dd4a8;
+    
+    
+    --background: #f4f7fb;
+    --surface: #ffffff;
+
+    --border: #d9e3ec;
+
+    --text: #243447;
+    --text-light: #708090;
+
+    --sidebar-width: 270px;
+    --header-height: 70px;
+
+    --radius: 12px;
+
+    --shadow:
+        0 2px 8px rgba(0,0,0,.05);
+
+    --transition: .25s ease;
+    --danger: #e25c5c;
+    --danger-dark: #ad3131;
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+
+    width:100%;
+    height:100%;
+
+    overflow:hidden;
+
+    font-family:
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ==========================================================================
+   Layout principal
+   ========================================================================== */
+
+#app{
+
+    display:flex;
+
+    width:100vw;
+
+    height:100vh;
+
+}
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+#sidebar{
+
+    width:var(--sidebar-width);
+
+    background:var(--secondary);
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* Logo */
+/* -------------------------------------------------------------------------- */
+
+#sidebar .logo{
+
+    height:75px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    letter-spacing:.5px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+/* ==========================================================================
+   Contenedor derecho
+   ========================================================================== */
+
+#mainContainer{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+    position:relative;
+}
+#rightPanel{
+    color: white;
+    position:absolute;
+
+    top:0;
+
+    right:-600px;
+
+    width:600px;
+
+    height:100%;
+
+    background:var(--secondary);
+
+    box-shadow:-5px 0 18px rgba(0,0,0,.25);
+
+    transition:right .3s ease;
+
+    z-index:500;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+#rightPanel.open{
+
+    right:0;
+
+}
+#rightPanelToggle{
+
+    position:absolute;
+
+    left:-38px;
+
+    top:50%;
+
+    width:38px;
+
+    height:60px;
+
+    border:none;
+
+    background:var(--secondary);
+
+    color:white;
+
+    cursor:pointer;
+
+    border-radius:8px 0 0 8px;
+
+    box-shadow:-3px 2px 8px rgba(0,0,0,.2);
+
+    font-size:20px;
+
+}
+#rightPanel .panelContent{
+
+    flex:1;
+
+    overflow:auto;
+
+    padding:20px;
+
+}
+#rightPanel .logo{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+
+.jsonEditor {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    
+}
+/* -------------------------------------------------------------------------- */
+/* Menú */
+/* -------------------------------------------------------------------------- */
+
+#sidebarMenu{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding:15px 0;
+
+}
+
+/* Scroll */
+
+#sidebarMenu::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+#sidebarMenu::-webkit-scrollbar-thumb{
+
+    background:rgba(255,255,255,.15);
+
+    border-radius:20px;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* Item */
+/* -------------------------------------------------------------------------- */
+
+.sidebar-item{
+
+    padding:
+
+        14px
+        24px;
+
+    cursor:pointer;
+
+    transition:var(--transition);
+
+    border-left:4px solid transparent;
+
+    user-select:none;
+
+    font-size:15px;
+
+}
+
+.sidebar-item:hover{
+
+    background:rgba(255,255,255,.06);
+
+}
+
+.sidebar-item.active{
+
+    background:rgba(46,153,125,.20);
+
+    border-left-color:var(--primary);
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+#header{
+
+    height:var(--header-height);
+
+    background:white;
+
+    border-bottom:1px solid var(--border);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 30px;
+
+    box-shadow:var(--shadow);
+
+    z-index:10;
+
+}
+
+/* -------------------------------------------------------------------------- */
+
+#sectionTitle{
+
+    font-size:28px;
+
+    font-weight:600;
+
+    color:var(--secondary);
+
+}
+
+/* ==========================================================================
+   Botón guardar
+   ========================================================================== */
+
+.btnSave{
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    padding:
+
+        10px
+        22px;
+
+    border-radius:8px;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+#btnSave:hover{
+
+    filter:brightness(.95);
+
+}
+
+/* ==========================================================================
+   Contenedor central
+   ========================================================================== */
+
+#content{
+
+    flex:1;
+
+    overflow:auto;
+
+    padding:25px;
+
+}
+
+/* Scroll */
+
+#content::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+#content::-webkit-scrollbar-thumb{
+
+    background:#c4ced7;
+
+    border-radius:20px;
+
+}
+
+/* ==========================================================================
+   Paneles
+   ========================================================================== */
+
+.content-panel{
+
+    display:none;
+
+    animation:fadeIn .2s ease;
+
+}
+
+.content-panel.active{
+
+    display:block;
+
+}
+
+/* ==========================================================================
+   Animaciones
+   ========================================================================== */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(10px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media(max-width:900px){
+
+    #sidebar{
+
+        width:220px;
+
+    }
+
+    #sectionTitle{
+
+        font-size:22px;
+
+    }
+
+}
+
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+#header{
+
+    height:70px;
+
+    background:white;
+
+    border-bottom:1px solid var(--border);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 25px;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+    box-shadow:var(--shadow);
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* Left */
+/* -------------------------------------------------------------------------- */
+
+#headerLeft{
+
+    flex:1;
+
+}
+
+#sectionTitle{
+
+    color:var(--secondary);
+
+    font-size:28px;
+
+    font-weight:600;
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* Center */
+/* -------------------------------------------------------------------------- */
+
+#headerCenter{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.search-container{
+
+    width:100%;
+
+    max-width:450px;
+
+    position:relative;
+
+}
+
+.search-icon{
+
+    position:absolute;
+
+    left:15px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:#888;
+
+    pointer-events:none;
+
+}
+
+#searchInput{
+
+    width:100%;
+
+    height:42px;
+
+    border:1px solid var(--border);
+
+    border-radius:10px;
+
+    outline:none;
+
+    padding-left:45px;
+
+    padding-right:15px;
+
+    font-size:14px;
+
+    transition:.2s;
+
+}
+
+#searchInput:focus{
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 0 3px rgba(46,153,125,.15);
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* Right */
+/* -------------------------------------------------------------------------- */
+
+#headerRight{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+/* ==========================================================================
+   STATUS
+   ========================================================================== */
+
+.status{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.status-dot{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+}
+
+/* Sin cambios */
+
+.status.clean{
+
+    color:#7d8793;
+
+}
+
+.status.clean .status-dot{
+
+    background:#7d8793;
+
+}
+
+/* Cambios pendientes */
+
+.status.modified{
+
+    color:#f59e0b;
+
+}
+
+.status.modified .status-dot{
+
+    background:#f59e0b;
+
+}
+
+/* Guardado */
+
+.status.saved{
+
+    color:#16a34a;
+
+}
+
+.status.saved .status-dot{
+
+    background:#16a34a;
+
+}
+
+/* ==========================================================================
+   BOTÓN GUARDAR
+   ========================================================================== */
+
+#btnSave{
+
+    height:42px;
+
+    padding:0 24px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:var(--primary);
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:.2s;
+
+}
+
+#btnSave:hover:not(:disabled){
+
+    transform:translateY(-1px);
+
+    filter:brightness(.95);
+
+}
+
+#btnSave:disabled{
+
+    background:#bfc7cf;
+
+    cursor:not-allowed;
+
+}
+/*
+====================================================
+*/
+.config-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.form-group label{
+
+    font-weight:600;
+
+    color:var(--secondary);
+
+}
+
+.form-group input[type=text],
+.form-group input[type=number]{
+
+    width:100%;
+
+    height:42px;
+
+    padding:0 12px;
+
+    border:1px solid #d7dce4;
+
+    border-radius:8px;
+
+    outline:none;
+
+    transition:.2s;
+
+}
+
+.form-group input:focus{
+
+    border-color:var(--primary);
+
+}
+
+.form-group input[type=checkbox]{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.pending-object{
+
+    padding:20px;
+
+    border:1px dashed #cfd8dc;
+
+    border-radius:10px;
+
+    background:#fafafa;
+
+    color:#888;
+
+}
+
+
+.table-container{
+
+    width:100%;
+
+    overflow-x:auto;
+
+}
+.btn-delete-row{
+
+    width:34px;
+
+    height:34px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#dc3545;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.btn-delete-row:hover{
+
+    background:#b52a37;
+
+}
+.sidebar-row{
+
+    display:flex;
+
+    align-items:center;
+
+    min-height:36px;
+
+}
+
+.sidebar-toggle{
+
+    width:18px;
+
+    min-width:18px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    color:#888;
+
+    user-select:none;
+
+    transition:.2s;
+
+}
+
+.sidebar-toggle:hover{
+
+    color:var(--primary);
+
+}
+
+.sidebar-item{
+
+    flex:1;
+
+    cursor:pointer;
+
+    padding:8px 12px;
+
+    border-radius:6px;
+
+}
+
+.sidebar-children{
+
+    margin-left:18px;
+
+    border-left:1px solid rgba(255,255,255,.08);
+
+}
+.sidebar-toggle{
+
+    transition:.2s;
+
+}
+
+.sidebar-toggle.expanded{
+
+    transform:rotate(90deg);
+
+}
+
+.danger-text {
+    color: var(--danger);
+}

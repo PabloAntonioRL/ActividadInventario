@@ -1,0 +1,1696 @@
+nov. 11, 2026 6:54:10 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 11, 2026 6:54:10 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 11, 2026 6:54:10 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 11, 2026 6:54:10 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 11, 2026 6:54:10 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 9:51:46 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 9:51:46 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 9:51:46 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 9:51:46 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 9:51:46 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 9:54:48 A. M. com.main.DBManager insertDepartamento
+FINE: Departamento 1 creado correctamente
+nov. 12, 2026 10:16:53 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 10:16:53 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 10:16:53 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 10:16:53 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 10:16:53 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 10:16:57 A. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 10:18:01 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 10:18:02 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 10:18:02 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 10:18:02 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 10:18:02 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 10:18:05 A. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 10:18:26 A. M. com.main.Main lambda$7
+FINE: Ya existe un departamento con el nombre DOMESTICOS
+nov. 12, 2026 10:19:54 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 10:19:54 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 10:19:54 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 10:19:54 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 10:19:54 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 10:19:59 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 10:20:13 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 10:20:41 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 10:20:41 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 10:20:41 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 10:20:41 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 10:20:41 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 10:20:44 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 10:21:37 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 10:22:16 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 10:24:16 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 10:24:38 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 11:06:26 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 11:11:50 A. M. com.main.Main lambda$7
+FINE: Ok
+nov. 12, 2026 11:12:13 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 11:12:13 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 11:12:13 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 11:12:13 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 11:12:13 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 11:12:26 A. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 11:12:47 A. M. com.main.DepartamentosManager insertDepartamento
+FINE: Departamento 2 creado correctamente
+nov. 12, 2026 11:12:47 A. M. com.main.Main lambda$7
+FINE: Ok. Departamento creado correctamente
+nov. 12, 2026 11:14:11 A. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 11:14:11 A. M. com.main.Main lambda$7
+FINE: Ya existe un departamento con el nombre ELECTRONICA
+nov. 12, 2026 11:15:07 A. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 11:15:08 A. M. com.main.Main lambda$7
+FINE: Ya existe un departamento con el nombre ELECTRONICA
+nov. 12, 2026 12:22:35 P. M. com.main.Main lambda$8
+FINE: Ya existe una clase con el nombre COMESTIBLES
+nov. 12, 2026 12:23:41 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 12:23:41 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 12:23:41 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 12:23:41 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 12:23:41 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 12:24:02 P. M. com.main.ClasesManager insertClase
+FINE: Clase 1 creada correctamente
+nov. 12, 2026 12:24:02 P. M. com.main.Main lambda$8
+FINE: Clase creada correctamente
+nov. 12, 2026 12:25:20 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 12:25:20 P. M. com.main.DepartamentosManager insertDepartamento
+FINE: Departamento 3 creado correctamente
+nov. 12, 2026 12:25:20 P. M. com.main.Main lambda$7
+FINE: Ok. Departamento creado correctamente
+nov. 12, 2026 12:26:18 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 12:26:18 P. M. com.main.DepartamentosManager insertDepartamento
+FINE: Departamento 4 creado correctamente
+nov. 12, 2026 12:26:18 P. M. com.main.Main lambda$7
+FINE: Ok. Departamento creado correctamente
+nov. 12, 2026 12:48:35 P. M. com.main.FamiliasManager insertFamilia
+FINE: Familia 1 creada correctamente
+nov. 12, 2026 12:48:35 P. M. com.main.Main lambda$9
+FINE: Familia creada correctamente
+nov. 12, 2026 12:54:10 P. M. com.main.ClasesManager insertClase
+FINE: Clase 2 creada correctamente
+nov. 12, 2026 12:54:10 P. M. com.main.Main lambda$8
+FINE: Clase creada correctamente
+nov. 12, 2026 12:58:24 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 12:58:24 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 12:58:24 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 12:58:24 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 12:58:24 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 12:58:28 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 12:58:28 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 12:58:28 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 12:58:28 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 12:58:28 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 12:58:28 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 12:58:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 12:58:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 12:58:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 12:58:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 12:58:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 12:58:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 12:59:28 P. M. com.main.FamiliasManager insertFamilia
+FINE: Familia 1 creada correctamente
+nov. 12, 2026 12:59:28 P. M. com.main.Main lambda$9
+FINE: Familia creada correctamente
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:02:43 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:03:12 P. M. com.main.ClasesManager insertClase
+FINE: Clase 3 creada correctamente
+nov. 12, 2026 1:03:12 P. M. com.main.Main lambda$8
+FINE: Clase creada correctamente
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:03:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:03:56 P. M. com.main.ClasesManager insertClase
+FINE: Clase 4 creada correctamente
+nov. 12, 2026 1:03:56 P. M. com.main.Main lambda$8
+FINE: Clase creada correctamente
+nov. 12, 2026 1:06:22 P. M. com.main.ClasesManager insertClase
+FINE: Clase 1 creada correctamente
+nov. 12, 2026 1:06:22 P. M. com.main.Main lambda$8
+FINE: Clase creada correctamente
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:07:25 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:07:55 P. M. com.main.FamiliasManager insertFamilia
+FINE: Familia 2 creada correctamente
+nov. 12, 2026 1:07:55 P. M. com.main.Main lambda$9
+FINE: Familia creada correctamente
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:08:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:17:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:32 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:18:52 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:19:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:05 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:10 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:34 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:40 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:20:42 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:13 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:21:15 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:44 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:48 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:23:51 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:12 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:14 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:30 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:48:35.281344
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:59:28.878104
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:25:33 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:07:55.758142
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:23:53.219453
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:54:00.896075
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:12.277983
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:03:56.628616
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:26:01 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 13:06:22.267221
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:28:08 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:41:09 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:42:04 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 09:54:48.31141
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 11:12:30.484915
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:25:20.151779
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_creacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_baja: 1899-12-31 18:00:00.0
+nov. 12, 2026 1:43:56 P. M. com.main.ResultSetToJsonConverter toArray
+FINE: fecha_actualizacion: 2026-11-12 12:26:18.44379
+nov. 12, 2026 3:56:55 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 3:56:55 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 3:56:55 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 3:56:55 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 3:56:55 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 3:56:59 P. M. com.main.Main lambda$4
+FINE: Datos obtenidos 4
+nov. 12, 2026 3:57:04 P. M. com.main.Main lambda$4
+FINE: Datos obtenidos 5
+nov. 12, 2026 3:57:06 P. M. com.main.Main lambda$4
+FINE: Datos obtenidos 3
+nov. 12, 2026 4:03:29 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 4:03:29 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 4:03:29 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 4:03:29 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 4:03:29 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 4:04:14 P. M. com.main.Main lambda$4
+FINE: Datos obtenidos 4
+nov. 12, 2026 4:04:32 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 12, 2026 4:04:52 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 12, 2026 4:05:11 P. M. com.main.Main lambda$4
+FINE: Ok
+nov. 12, 2026 4:59:46 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 4:59:46 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 4:59:46 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 4:59:46 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 4:59:46 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:04:26 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 5:04:26 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 5:04:26 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 5:04:26 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 5:04:26 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:04:37 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:05:04 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+nov. 12, 2026 5:05:23 P. M. com.main.Main lambda$7
+FINE: Error: Ya existe un registro con esa llave primaria.
+nov. 12, 2026 5:05:41 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:05:53 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: No function outputs were registered.
+nov. 12, 2026 5:06:12 P. M. com.main.Main lambda$7
+FINE: Error SQL [55000]: No function outputs were registered.
+nov. 12, 2026 5:11:41 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 5:11:41 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 5:11:41 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 5:11:41 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 5:11:41 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:11:51 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:12:44 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ERROR: no existe el cursor «cursor_departamento»
+nov. 12, 2026 5:12:44 P. M. com.main.Main lambda$7
+FINE: Error SQL [34000]: ERROR: no existe el cursor «cursor_departamento»
+nov. 12, 2026 5:13:49 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 5:13:49 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 5:13:49 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 5:13:49 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 5:13:49 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:13:59 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:13:59 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+nov. 12, 2026 5:13:59 P. M. com.main.Main lambda$7
+FINE: Error SQL [2200G]: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+nov. 12, 2026 5:17:13 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:17:13 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+nov. 12, 2026 5:17:13 P. M. com.main.Main lambda$7
+FINE: Error SQL [2200G]: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+nov. 12, 2026 5:17:52 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 5:17:52 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 5:17:52 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 5:17:52 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 5:17:52 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:17:59 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:17:59 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+	at org.postgresql.jdbc.PgCallableStatement.checkIndex(PgCallableStatement.java:399)
+	at org.postgresql.jdbc.PgCallableStatement.getString(PgCallableStatement.java:250)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:58)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+	at org.postgresql.jdbc.PgCallableStatement.checkIndex(PgCallableStatement.java:399)
+	at org.postgresql.jdbc.PgCallableStatement.getString(PgCallableStatement.java:250)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:58)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 12, 2026 5:17:59 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+nov. 12, 2026 5:17:59 P. M. com.main.Main lambda$7
+FINE: Error SQL [2200G]: Parameter of type java.sql.Types=1111 was registered, but call to getString (sqltype=java.sql.Types=12) was made.
+nov. 12, 2026 5:19:57 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 5:19:58 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 5:19:58 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 5:19:58 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 5:19:58 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:20:04 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:20:34 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: no existe el cursor «org.postgresql.jdbc.PgResultSet@629249ca»
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:64)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: no existe el cursor «org.postgresql.jdbc.PgResultSet@629249ca»
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:137)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:64)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 12, 2026 5:20:42 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ERROR: no existe el cursor «org.postgresql.jdbc.PgResultSet@629249ca»
+nov. 12, 2026 5:20:45 P. M. com.main.Main lambda$7
+FINE: Error SQL [34000]: ERROR: no existe el cursor «org.postgresql.jdbc.PgResultSet@629249ca»
+nov. 12, 2026 5:24:33 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 5:24:34 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 5:24:34 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 5:24:34 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 5:24:34 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:24:42 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:25:01 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3276)
+	at org.postgresql.jdbc.PgResultSet.getObject(PgResultSet.java:3048)
+	at com.main.ResultSetToJsonConverter.toJson(ResultSetToJsonConverter.java:237)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:62)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3276)
+	at org.postgresql.jdbc.PgResultSet.getObject(PgResultSet.java:3048)
+	at com.main.ResultSetToJsonConverter.toJson(ResultSetToJsonConverter.java:237)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:62)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 12, 2026 5:25:03 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ResultSet not positioned properly, perhaps you need to call next.
+nov. 12, 2026 5:25:03 P. M. com.main.Main lambda$7
+FINE: Error SQL [24000]: ResultSet not positioned properly, perhaps you need to call next.
+nov. 12, 2026 5:27:30 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-12)
+nov. 12, 2026 5:27:30 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 12, 2026 5:27:30 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 12, 2026 5:27:30 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 12, 2026 5:27:30 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 12, 2026 5:27:40 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:27:51 P. M. com.main.Main lambda$7
+FINE: Ok. Departamento creado correctamente
+nov. 12, 2026 5:27:51 P. M. com.main.Main lambda$4
+FINE: Datos obtenidos 5
+nov. 12, 2026 5:28:15 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:28:15 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 12, 2026 5:28:15 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+nov. 12, 2026 5:28:15 P. M. com.main.Main lambda$7
+FINE: Error: Ya existe un registro con esa llave primaria.
+nov. 12, 2026 5:28:58 P. M. com.main.Main lambda$4
+FINE: Datos obtenidos 5
+nov. 12, 2026 5:29:03 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:29:03 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 12, 2026 5:29:03 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+nov. 12, 2026 5:29:03 P. M. com.main.Main lambda$7
+FINE: Error: Ya existe un registro con esa llave primaria.
+nov. 12, 2026 5:29:06 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:29:06 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 12, 2026 5:29:06 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+nov. 12, 2026 5:29:06 P. M. com.main.Main lambda$7
+FINE: Error: Ya existe un registro con esa llave primaria.
+nov. 12, 2026 5:29:29 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:29:30 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.insertDepartamento(DepartamentosManager.java:56)
+	at com.main.Main.lambda$7(Main.java:180)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 12, 2026 5:29:30 P. M. com.main.DepartamentosManager insertDepartamento
+WARNING: Error al insertar departamento: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL insertar_departamento(character varying,refcursor) en la línea 18 en RAISE
+nov. 12, 2026 5:29:30 P. M. com.main.Main lambda$7
+FINE: Error: Ya existe un registro con esa llave primaria.
+nov. 12, 2026 5:29:50 P. M. com.main.DepartamentosManager insertDepartamento
+INFO: Insertando Departamento...
+nov. 12, 2026 5:29:54 P. M. com.main.Main lambda$7
+FINE: Ok. Departamento creado correctamente
+nov. 12, 2026 5:29:54 P. M. com.main.Main lambda$4
+FINE: Datos obtenidos 5

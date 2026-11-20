@@ -1,0 +1,1922 @@
+nov. 16, 2026 10:00:19 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-16)
+nov. 16, 2026 10:00:19 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 16, 2026 10:00:19 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 16, 2026 10:00:19 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 16, 2026 10:00:19 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 16, 2026 10:02:07 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:02:07 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:02:08 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:02:08 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:02:33 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:02:33 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:02:33 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:02:33 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:04:56 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:04:56 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:04:56 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:04:56 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:05:35 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:05:36 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:05:36 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:05:36 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:10:02 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:10:02 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:10:02 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:10:02 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:10:29 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:10:29 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:10:29 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:10:29 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:11:10 A. M. com.main.Main lambda$5
+FINE: Nombre de tabla inválido
+nov. 16, 2026 10:13:52 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:13:52 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:13:52 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:13:52 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:13:54 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:13:54 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:13:54 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:13:54 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:14:28 A. M. com.main.DBManager reactivarElemento
+INFO: Reactivando elemento de departamentos
+nov. 16, 2026 10:14:53 A. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: Tipo de elemento no válido: departamentos
+  Where: función PL/pgSQL reactivar_elemento(character varying,numeric,numeric,numeric,refcursor) en la línea 63 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DBManager.reactivarElemento(DBManager.java:174)
+	at com.main.Main.lambda$5(Main.java:124)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: Tipo de elemento no válido: departamentos
+  Where: función PL/pgSQL reactivar_elemento(character varying,numeric,numeric,numeric,refcursor) en la línea 63 en RAISE
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DBManager.reactivarElemento(DBManager.java:174)
+	at com.main.Main.lambda$5(Main.java:124)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 16, 2026 10:14:53 A. M. com.main.DBManager reactivarElemento
+WARNING: Error al reactivar elemento: ERROR: Tipo de elemento no válido: departamentos
+  Where: función PL/pgSQL reactivar_elemento(character varying,numeric,numeric,numeric,refcursor) en la línea 63 en RAISE
+nov. 16, 2026 10:14:53 A. M. com.main.Main lambda$5
+FINE: Error: ERROR: Tipo de elemento no válido: departamentos
+  Where: función PL/pgSQL reactivar_elemento(character varying,numeric,numeric,numeric,refcursor) en la línea 63 en RAISE
+nov. 16, 2026 10:14:53 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:14:53 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:14:53 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:14:53 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:19:01 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:19:01 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:19:01 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:19:01 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:19:03 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:19:03 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:19:03 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:19:03 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:19:19 A. M. com.main.DBManager reactivarElemento
+INFO: Reactivando elemento de departamentos
+nov. 16, 2026 10:19:19 A. M. com.main.Main lambda$5
+FINE: Elemento reactivado correctamente
+nov. 16, 2026 10:19:19 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:19:19 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 6
+nov. 16, 2026 10:19:19 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:19:19 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 10:20:27 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:20:27 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:20:28 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:20:28 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 6
+nov. 16, 2026 10:20:34 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:20:34 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 6
+nov. 16, 2026 10:20:34 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:20:34 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 10:20:59 A. M. com.main.DepartamentosManager eliminarDepartamento
+WARNING: Se realizara un softDelete para el departamento 6
+nov. 16, 2026 10:21:03 A. M. com.main.Main lambda$10
+FINE: Departamento desactivado correctamente
+nov. 16, 2026 10:21:03 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:21:03 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:21:03 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:21:03 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:21:50 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:21:50 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:21:50 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:21:50 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:21:52 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:21:52 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:21:52 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:21:52 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 10:21:55 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 10:21:55 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 10:21:55 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 10:21:55 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 1
+nov. 16, 2026 10:22:03 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:22:03 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 10:22:03 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:22:03 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 10:23:14 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Se eliminara la familia 5
+nov. 16, 2026 10:23:40 A. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+	at org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:70)
+	at org.postgresql.core.v3.SimpleParameterList.setBinaryParameter(SimpleParameterList.java:144)
+	at org.postgresql.jdbc.PgPreparedStatement.bindBytes(PgPreparedStatement.java:1113)
+	at org.postgresql.jdbc.PgPreparedStatement.setInt(PgPreparedStatement.java:332)
+	at com.main.FamiliasManager.eliminarFamilia(FamiliasManager.java:201)
+	at com.main.Main.lambda$16(Main.java:367)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+	at org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:70)
+	at org.postgresql.core.v3.SimpleParameterList.setBinaryParameter(SimpleParameterList.java:144)
+	at org.postgresql.jdbc.PgPreparedStatement.bindBytes(PgPreparedStatement.java:1113)
+	at org.postgresql.jdbc.PgPreparedStatement.setInt(PgPreparedStatement.java:332)
+	at com.main.FamiliasManager.eliminarFamilia(FamiliasManager.java:201)
+	at com.main.Main.lambda$16(Main.java:367)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 16, 2026 10:23:40 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Error: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+nov. 16, 2026 10:23:40 A. M. com.main.Main lambda$16
+FINE: Error SQL [22023]: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+nov. 16, 2026 10:23:40 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:23:40 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 10:23:40 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:23:41 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 10:26:45 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-16)
+nov. 16, 2026 10:26:45 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 16, 2026 10:26:45 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 16, 2026 10:26:45 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 16, 2026 10:26:45 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 16, 2026 10:27:58 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:27:58 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:27:59 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:27:59 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:31:46 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-16)
+nov. 16, 2026 10:31:46 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 16, 2026 10:31:46 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 16, 2026 10:31:47 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 16, 2026 10:31:47 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 16, 2026 10:31:51 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 10:31:51 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:31:52 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 10:31:52 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 10:31:52 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 10:31:52 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 10:32:01 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:32:01 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 10:32:01 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:32:01 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 10:33:09 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Se eliminara la familia 5
+nov. 16, 2026 10:33:13 A. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+	at org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:70)
+	at org.postgresql.core.v3.SimpleParameterList.setBinaryParameter(SimpleParameterList.java:144)
+	at org.postgresql.jdbc.PgPreparedStatement.bindBytes(PgPreparedStatement.java:1113)
+	at org.postgresql.jdbc.PgPreparedStatement.setInt(PgPreparedStatement.java:332)
+	at com.main.FamiliasManager.eliminarFamilia(FamiliasManager.java:201)
+	at com.main.Main.lambda$16(Main.java:367)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+	at org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:70)
+	at org.postgresql.core.v3.SimpleParameterList.setBinaryParameter(SimpleParameterList.java:144)
+	at org.postgresql.jdbc.PgPreparedStatement.bindBytes(PgPreparedStatement.java:1113)
+	at org.postgresql.jdbc.PgPreparedStatement.setInt(PgPreparedStatement.java:332)
+	at com.main.FamiliasManager.eliminarFamilia(FamiliasManager.java:201)
+	at com.main.Main.lambda$16(Main.java:367)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 16, 2026 10:33:13 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Error: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+nov. 16, 2026 10:33:13 A. M. com.main.Main lambda$16
+FINE: Error SQL [22023]: El índice de la columna está fuera de rango: 3, número de columnas: 2.
+nov. 16, 2026 10:33:13 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:33:13 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 10:33:13 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:33:13 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 10:34:13 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-16)
+nov. 16, 2026 10:34:13 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 16, 2026 10:34:13 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 16, 2026 10:34:13 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 16, 2026 10:34:13 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 16, 2026 10:34:19 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:34:20 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 10:34:20 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:34:20 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 10:34:34 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Se eliminara la familia 5
+nov. 16, 2026 10:34:48 A. M. com.main.Main lambda$16
+FINE: Se elimino la familia 1
+nov. 16, 2026 10:34:48 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:34:48 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 10:34:48 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 10:34:48 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 11:07:18 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:07:18 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 11:07:18 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:07:18 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:07:21 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:07:21 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:07:21 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:07:21 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 11:07:31 A. M. com.main.DepartamentosManager eliminarDepartamento
+WARNING: Se realizara un softDelete para el departamento 1
+nov. 16, 2026 11:07:31 A. M. com.main.Main lambda$10
+FINE: Departamento desactivado correctamente
+nov. 16, 2026 11:07:31 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:07:31 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 11:07:31 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:07:31 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 2
+nov. 16, 2026 11:07:35 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:07:35 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 8
+nov. 16, 2026 11:07:35 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:07:35 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 5
+nov. 16, 2026 11:07:45 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:07:45 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 28
+nov. 16, 2026 11:07:45 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:07:45 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 12
+nov. 16, 2026 11:08:10 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:08:10 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:08:10 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:08:10 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 11:08:30 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:08:30 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 11:08:30 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:08:30 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 2
+nov. 16, 2026 11:08:37 A. M. com.main.DBManager reactivarElemento
+INFO: Reactivando elemento de departamentos
+nov. 16, 2026 11:08:38 A. M. com.main.Main lambda$5
+FINE: Elemento reactivado correctamente
+nov. 16, 2026 11:08:38 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:08:38 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:08:38 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:08:38 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 11:08:47 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:08:47 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 11:08:47 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:08:47 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:08:57 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:08:57 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 11:08:57 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:08:57 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 1
+nov. 16, 2026 11:09:07 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:09:07 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 11:09:07 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:09:07 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 11:09:15 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:09:15 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:09:24 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:09:24 A. M. com.main.Main lambda$4
+FINE: Ok
+nov. 16, 2026 11:09:45 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:09:45 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 16, 2026 11:09:47 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:09:47 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 16, 2026 11:09:47 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:09:47 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 3 clases
+nov. 16, 2026 11:09:48 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:09:48 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 clases
+nov. 16, 2026 11:09:55 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:09:55 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 familias
+nov. 16, 2026 11:10:03 A. M. com.main.InventarioManager insertItemsBatch
+FINE: Agregando 1 filas en DB inventario
+nov. 16, 2026 11:10:03 A. M. com.main.InventarioManager insertItemsBatch
+FINE: Se insertaron 1 artículos.
+nov. 16, 2026 11:10:03 A. M. com.main.Main lambda$17
+FINE: Ok
+nov. 16, 2026 11:10:07 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:10:07 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:10:07 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:10:07 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:10:07 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:10:08 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:10:12 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:10:12 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 11:10:12 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:10:12 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 11:10:42 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Se realizara un softDelete para la familia 1
+nov. 16, 2026 11:10:42 A. M. com.main.Main lambda$16
+FINE: Familia desactivada correctamente
+nov. 16, 2026 11:10:42 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:10:42 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 11:10:42 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:10:42 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 11:10:51 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:10:51 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 11:10:51 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:10:51 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 11:10:58 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:10:58 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 11:10:58 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:10:58 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 11:12:15 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:12:15 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:12:16 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:12:16 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 11:12:16 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:12:16 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 11:12:17 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:12:17 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 11:12:17 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:12:17 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 11:12:25 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Se eliminara la familia 5
+nov. 16, 2026 11:12:25 A. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: update o delete en «familias» viola la llave foránea «fk_inventario_familia» en la tabla «inventario»
+  Detail: La llave (numero_departamento, numero_clase, numero_familia)=(5, 2, 1) todavía es referida desde la tabla «inventario».
+  Where: sentencia SQL: «DELETE FROM familias
+    WHERE
+        numero_departamento = p_numero_departamento
+        AND numero_clase = p_numero_clase
+        AND numero_familia = p_numero_familia»
+función PL/pgSQL eliminar_familia(numeric,numeric,numeric) en la línea 4 en sentencia SQL
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.FamiliasManager.eliminarFamilia(FamiliasManager.java:202)
+	at com.main.Main.lambda$16(Main.java:367)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: update o delete en «familias» viola la llave foránea «fk_inventario_familia» en la tabla «inventario»
+  Detail: La llave (numero_departamento, numero_clase, numero_familia)=(5, 2, 1) todavía es referida desde la tabla «inventario».
+  Where: sentencia SQL: «DELETE FROM familias
+    WHERE
+        numero_departamento = p_numero_departamento
+        AND numero_clase = p_numero_clase
+        AND numero_familia = p_numero_familia»
+función PL/pgSQL eliminar_familia(numeric,numeric,numeric) en la línea 4 en sentencia SQL
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.FamiliasManager.eliminarFamilia(FamiliasManager.java:202)
+	at com.main.Main.lambda$16(Main.java:367)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 16, 2026 11:12:25 A. M. com.main.FamiliasManager eliminarFamilia
+WARNING: Error: ERROR: update o delete en «familias» viola la llave foránea «fk_inventario_familia» en la tabla «inventario»
+  Detail: La llave (numero_departamento, numero_clase, numero_familia)=(5, 2, 1) todavía es referida desde la tabla «inventario».
+  Where: sentencia SQL: «DELETE FROM familias
+    WHERE
+        numero_departamento = p_numero_departamento
+        AND numero_clase = p_numero_clase
+        AND numero_familia = p_numero_familia»
+función PL/pgSQL eliminar_familia(numeric,numeric,numeric) en la línea 4 en sentencia SQL
+nov. 16, 2026 11:12:25 A. M. com.main.Main lambda$16
+FINE: Error: No se puede eliminar el registro porque existen elementos que dependen de él.
+nov. 16, 2026 11:12:25 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:12:25 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 11:12:25 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:12:25 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 11:12:42 A. M. com.main.DBManager reactivarElemento
+INFO: Reactivando elemento de familias
+nov. 16, 2026 11:12:42 A. M. com.main.Main lambda$5
+FINE: Elemento reactivado correctamente
+nov. 16, 2026 11:12:42 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:12:42 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 11:12:42 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:12:42 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 11:14:29 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:14:29 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:14:29 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:14:29 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:21:30 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:21:30 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:21:30 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:21:30 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 11:23:00 A. M. com.main.DepartamentosManager eliminarDepartamento
+WARNING: Se eliminara el departamento 6
+nov. 16, 2026 11:23:00 A. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: ERROR: no existe el procedimiento «eliminar_departamentos(integer)»
+  Hint: Ningún procedimiento coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+  Position: 6
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.eliminarDepartamento(DepartamentosManager.java:163)
+	at com.main.Main.lambda$10(Main.java:234)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: ERROR: no existe el procedimiento «eliminar_departamentos(integer)»
+  Hint: Ningún procedimiento coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+  Position: 6
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgCallableStatement.executeWithFlags(PgCallableStatement.java:90)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:180)
+	at com.main.DepartamentosManager.eliminarDepartamento(DepartamentosManager.java:163)
+	at com.main.Main.lambda$10(Main.java:234)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 16, 2026 11:23:00 A. M. com.main.DepartamentosManager eliminarDepartamento
+WARNING: Error: ERROR: no existe el procedimiento «eliminar_departamentos(integer)»
+  Hint: Ningún procedimiento coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+  Position: 6
+nov. 16, 2026 11:23:00 A. M. com.main.Main lambda$10
+FINE: Error SQL [42883]: ERROR: no existe el procedimiento «eliminar_departamentos(integer)»
+  Hint: Ningún procedimiento coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+  Position: 6
+nov. 16, 2026 11:23:00 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:23:00 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:23:00 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:23:00 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 11:23:24 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-16)
+nov. 16, 2026 11:23:24 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 16, 2026 11:23:24 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 16, 2026 11:23:24 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 16, 2026 11:23:24 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 16, 2026 11:23:34 A. M. com.main.DepartamentosManager eliminarDepartamento
+WARNING: Se eliminara el departamento 6
+nov. 16, 2026 11:23:34 A. M. com.main.Main lambda$10
+FINE: Se elimino el departamento 6
+nov. 16, 2026 11:23:34 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:23:34 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:23:34 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:23:34 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 11:23:42 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:23:42 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 11:23:42 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:23:42 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 1
+nov. 16, 2026 11:23:58 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:23:58 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:24:04 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:24:04 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 clases
+nov. 16, 2026 11:24:08 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:24:08 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 familias
+nov. 16, 2026 11:24:18 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:24:18 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:24:18 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:24:18 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:24:18 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:24:18 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:24:19 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:24:19 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 11:24:19 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:24:19 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 1
+nov. 16, 2026 11:24:50 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:24:51 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 11:24:51 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:24:51 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 11:24:55 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:24:55 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 11:24:55 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:24:55 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 1
+nov. 16, 2026 11:25:00 A. M. com.main.ClasesManager eliminarClase
+WARNING: Se eliminara la clase 1
+nov. 16, 2026 11:25:00 A. M. com.main.Main lambda$13
+FINE: Se elimino la Clase 1
+nov. 16, 2026 11:25:00 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:25:00 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 11:25:00 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:25:01 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 0
+nov. 16, 2026 11:25:04 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:25:04 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:25:04 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:25:04 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:25:04 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:25:04 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:25:04 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:25:04 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 11:25:47 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:25:47 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:25:47 A. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 departamentos
+nov. 16, 2026 11:25:47 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:26:04 A. M. com.main.Main lambda$9
+FINE: Ok. Clase actualizada correctamente
+nov. 16, 2026 11:26:04 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:26:04 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:26:09 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:26:09 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:26:10 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:26:10 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:26:10 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:26:10 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:26:11 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:26:11 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:26:11 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:26:12 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 11:31:23 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:31:23 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:31:23 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:31:23 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:31:23 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:31:23 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:31:47 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:31:47 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:31:47 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:31:47 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:31:47 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:31:47 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:31:56 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:31:56 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:31:56 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:31:56 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 11:32:25 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:32:25 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:32:25 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:32:25 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:32:25 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:32:25 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:32:42 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:32:42 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:32:42 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:32:42 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 11:32:51 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:32:51 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 11:32:51 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:32:51 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 0
+nov. 16, 2026 11:33:14 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:33:14 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:33:25 A. M. com.main.Main lambda$11
+FINE: Ok. Clase creada correctamente
+nov. 16, 2026 11:33:37 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:33:37 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:33:37 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:33:37 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:33:37 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:33:37 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 11:33:38 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:33:38 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 13
+nov. 16, 2026 11:33:38 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 11:33:38 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 0
+nov. 16, 2026 11:47:32 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:47:32 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 11:47:32 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 11:47:32 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 11:51:50 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:51:50 A. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 11:51:50 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 11:51:50 A. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 11:51:50 A. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 11:51:50 A. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 12:06:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:06:14 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:06:14 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:06:14 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 12:06:16 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:06:17 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 13
+nov. 16, 2026 12:06:17 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:06:17 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 0
+nov. 16, 2026 12:06:18 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:06:18 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 12:06:18 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:06:18 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 12:06:23 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:06:23 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 13
+nov. 16, 2026 12:06:23 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:06:23 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 0
+nov. 16, 2026 12:06:35 P. M. com.main.ClasesManager eliminarClase
+WARNING: Se realizara un softDelete para la clase 3
+nov. 16, 2026 12:06:35 P. M. com.main.Main lambda$13
+FINE: Clase desactivada correctamente
+nov. 16, 2026 12:06:35 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:06:35 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 12:06:35 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:06:35 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 1
+nov. 16, 2026 12:06:47 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:06:47 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:06:52 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:06:52 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 1 clases
+nov. 16, 2026 12:06:58 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:06:58 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:06:58 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:06:58 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:06:58 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:06:58 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 12:06:59 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:06:59 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 40
+nov. 16, 2026 12:06:59 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:06:59 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 0
+nov. 16, 2026 12:07:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:07:01 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 12
+nov. 16, 2026 12:07:01 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:07:01 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 1
+nov. 16, 2026 12:09:29 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:09:29 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:09:29 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:09:29 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:09:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:09:42 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:09:42 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 12:09:42 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:11:08 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:11:08 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:11:08 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 12:11:08 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:11:14 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:11:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:11:14 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:11:14 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 12:11:32 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:11:32 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:11:32 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:11:32 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:13:23 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:13:23 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:13:23 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:13:23 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:13:26 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:13:26 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:13:28 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:13:28 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:15:31 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:15:31 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:16:04 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:16:04 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:16:04 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:16:04 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:16:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:16:20 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:16:45 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:16:45 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:16:45 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:16:45 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 12:16:55 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:16:55 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:17:04 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:17:04 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:17:04 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:17:04 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:17:09 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:17:09 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 0
+nov. 16, 2026 12:17:11 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:17:11 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 4
+nov. 16, 2026 12:17:25 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:17:25 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 5
+nov. 16, 2026 12:17:25 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:17:25 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 0
+nov. 16, 2026 12:17:32 P. M. com.main.DepartamentosManager eliminarDepartamento
+WARNING: Se realizara un softDelete para el departamento 5
+nov. 16, 2026 12:17:32 P. M. com.main.Main lambda$10
+FINE: Departamento desactivado correctamente
+nov. 16, 2026 12:17:32 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:17:32 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:17:32 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:17:32 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 12:17:35 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:17:35 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:17:38 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:17:38 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 12:17:40 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:17:40 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:17:43 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:17:43 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 12:20:25 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:20:25 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:20:25 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:20:25 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:20:35 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:20:35 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 12:20:38 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:20:38 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:21:13 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:21:13 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:21:13 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:21:13 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:21:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:21:14 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:21:16 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:21:16 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:21:17 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:21:17 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:21:18 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:21:18 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:07 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:23:07 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:23:07 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:23:07 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:35 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:23:35 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:23:35 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:35 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:23:38 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:23:38 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:39 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:23:39 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:40 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:23:40 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:41 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:23:41 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:41 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:23:41 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:23:43 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:23:43 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 12:23:44 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:23:44 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 12:23:44 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:23:44 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 12:23:45 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:23:45 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:23:46 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:23:46 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:23:46 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:23:46 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:23:47 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:23:47 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:23:47 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:23:47 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:24:35 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:24:35 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:26:47 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:26:48 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:27:29 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:27:29 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:27:30 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:27:30 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:27:30 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:27:30 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:27:35 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:27:35 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 12:28:02 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:28:02 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:28:03 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:28:03 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 12:28:14 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:28:14 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:28:30 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:28:30 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 12:28:59 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:28:59 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:29:10 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:29:11 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 12:30:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:30:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:30:42 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:30:42 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:30:55 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:30:55 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:31:11 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:31:11 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 12:31:22 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:31:22 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de clases 2
+nov. 16, 2026 12:31:36 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:31:37 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:31:47 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:31:47 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 12:31:56 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:31:56 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:32:05 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:32:05 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 12:34:58 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:34:58 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:34:58 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:34:58 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:35:02 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:35:02 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:35:02 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:35:02 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:38:13 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:38:13 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 16, 2026 12:38:16 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:38:16 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 12:38:23 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:38:23 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 2 clases
+nov. 16, 2026 12:38:26 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:38:26 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 4 clases
+nov. 16, 2026 12:38:30 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:38:30 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:38:34 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:38:34 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 4 clases
+nov. 16, 2026 12:38:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:38:42 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:38:46 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:38:46 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:38:50 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:38:50 P. M. com.main.Main lambda$4
+FINE: Ok, se encontraron 4 clases
+nov. 16, 2026 12:38:54 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:38:54 P. M. com.main.Main lambda$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 12:38:56 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:38:56 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 12:47:18 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:47:18 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:47:18 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:47:18 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:48:16 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:48:16 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:48:17 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:48:17 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:48:57 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:48:57 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:49:03 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:49:03 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 12:49:03 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:49:03 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 12:49:05 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 12:49:05 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 12:49:06 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 12:49:06 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 12:49:06 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 12:49:06 P. M. com.main.Main lambda$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 3:07:52 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-16)
+nov. 16, 2026 3:07:52 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 16, 2026 3:07:52 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 16, 2026 3:07:53 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 16, 2026 3:07:53 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 16, 2026 3:08:12 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:08:12 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:13:50 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:13:50 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:13:50 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:13:50 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:28:07 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:28:07 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:28:07 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:28:07 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:28:11 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:28:11 P. M. com.main.Main lambda$startServer$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 3:28:15 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:28:15 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:28:17 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:28:17 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:28:21 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:28:22 P. M. com.main.Main lambda$startServer$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 3:28:23 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:28:23 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:28:24 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:28:24 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 3:28:26 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:28:26 P. M. com.main.Main lambda$startServer$6
+FINE: Ok. Obteniendo datos de clases 2
+nov. 16, 2026 3:28:28 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:28:29 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 3:28:30 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 3:28:30 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 3:28:31 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de familias
+nov. 16, 2026 3:28:31 P. M. com.main.Main lambda$startServer$6
+FINE: Ok. Obteniendo datos de familias 1
+nov. 16, 2026 3:28:33 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 3:28:33 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 3:41:17 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:41:17 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:41:17 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:41:17 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:43:40 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:43:40 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:43:40 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:43:40 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:48:28 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:48:28 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:48:28 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:48:28 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:48:53 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:48:53 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:48:53 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:48:53 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:49:23 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:49:23 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:49:23 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:49:23 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:51:03 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:51:03 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:51:03 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:51:03 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:51:24 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:51:24 P. M. com.main.Main lambda$startServer$6
+FINE: Ok. Obteniendo datos de inventario 1
+nov. 16, 2026 3:51:28 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:51:28 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:51:30 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:51:30 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 3:53:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:53:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:53:43 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:53:43 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:53:49 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:53:49 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:53:49 P. M. com.main.Main lambda$startServer$4
+FINE: Ok
+nov. 16, 2026 3:53:49 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:53:49 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:53:49 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 3:53:50 P. M. com.main.Main lambda$startServer$4
+FINE: Ok, se encontraron 1 familias
+nov. 16, 2026 3:53:50 P. M. com.main.Main lambda$startServer$4
+FINE: Ok, se encontraron 4 clases
+nov. 16, 2026 3:53:51 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:53:51 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:53:51 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:53:51 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:55:55 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:55:55 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:55:55 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:55:55 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:56:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:56:01 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:56:02 P. M. com.main.Main lambda$startServer$4
+FINE: Ok
+nov. 16, 2026 3:56:02 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:56:02 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:56:02 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 3:56:02 P. M. com.main.Main lambda$startServer$4
+FINE: Ok, se encontraron 4 clases
+nov. 16, 2026 3:56:02 P. M. com.main.Main lambda$startServer$4
+FINE: Ok, se encontraron 1 familias
+nov. 16, 2026 3:56:05 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:56:05 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:56:05 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:56:05 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:56:07 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:56:07 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:56:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:56:42 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:56:42 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 3:56:42 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:56:58 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:56:58 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 3:57:04 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 3:57:04 P. M. com.main.Main lambda$startServer$6
+FINE: Ok. Obteniendo datos de departamentos 1
+nov. 16, 2026 3:57:20 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:57:20 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 3:57:47 P. M. com.main.DBManager getAllInactive
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:57:47 P. M. com.main.Main lambda$startServer$6
+FINE: Ok. Obteniendo datos de clases 2
+nov. 16, 2026 3:58:18 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:58:18 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 3:58:26 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de familias
+nov. 16, 2026 3:58:26 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de familias 39
+nov. 16, 2026 3:58:27 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de clases
+nov. 16, 2026 3:58:28 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de clases 11
+nov. 16, 2026 3:58:31 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 3:58:31 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 4:08:06 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 4:08:06 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 4:08:06 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 4:08:06 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4
+nov. 16, 2026 4:08:21 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de inventario
+nov. 16, 2026 4:08:21 P. M. com.main.DBManager getDataFrom
+INFO: Buscando informacion de departamentos
+nov. 16, 2026 4:08:21 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de inventario 3
+nov. 16, 2026 4:08:21 P. M. com.main.Main lambda$startServer$4
+FINE: Ok. Obteniendo datos de departamentos 4

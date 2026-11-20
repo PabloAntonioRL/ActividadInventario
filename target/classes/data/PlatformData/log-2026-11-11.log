@@ -1,0 +1,125 @@
+nov. 11, 2026 8:39:14 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-11)
+nov. 11, 2026 8:39:14 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 11, 2026 8:39:14 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 11, 2026 8:39:14 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 11, 2026 8:39:14 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 11, 2026 8:44:15 A. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-11)
+nov. 11, 2026 8:44:15 A. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 11, 2026 8:44:15 A. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 11, 2026 8:44:15 A. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 11, 2026 8:44:15 A. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 11, 2026 3:23:45 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-11)
+nov. 11, 2026 3:23:45 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 11, 2026 3:23:45 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 11, 2026 3:23:45 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 11, 2026 3:23:45 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 11, 2026 3:26:03 P. M. com.main.Util printError
+SEVERE: org.postgresql.util.PSQLException: FATAL: la autentificaci�n password fall� para el usuario �admin�
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.main.DBManager.getConnection(DBManager.java:26)
+	at com.main.DBManager.insertDepartamento(DBManager.java:286)
+	at com.main.Main.lambda$7(Main.java:183)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+org.postgresql.util.PSQLException: FATAL: la autentificaci�n password fall� para el usuario �admin�
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:698)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.main.DBManager.getConnection(DBManager.java:26)
+	at com.main.DBManager.insertDepartamento(DBManager.java:286)
+	at com.main.Main.lambda$7(Main.java:183)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1598)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+nov. 11, 2026 3:28:12 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-11)
+nov. 11, 2026 3:28:13 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 11, 2026 3:28:13 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 11, 2026 3:28:13 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 11, 2026 3:28:13 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
+nov. 11, 2026 3:29:11 P. M. com.main.DBManager insertDepartamento
+FINE: Departamento 1 creado correctamente
+nov. 11, 2026 3:32:25 P. M. com.main.Util setupFileHandler
+INFO: Iniciando log para el proyecto Coppel (2026-11-11)
+nov. 11, 2026 3:32:25 P. M. com.main.Main startServer
+INFO: Iniciando server 0.0.0...
+nov. 11, 2026 3:32:25 P. M. com.main.Main startServer
+WARNING: Habilitando servidor...
+nov. 11, 2026 3:32:25 P. M. com.main.Util getWebappUrl
+FINE: Path: src/main/webapp
+nov. 11, 2026 3:32:25 P. M. com.main.Main startServer
+CONFIG: Cargando webapp...
